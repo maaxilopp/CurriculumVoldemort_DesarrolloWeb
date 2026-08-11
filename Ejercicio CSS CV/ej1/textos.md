@@ -40,3 +40,4 @@ Especializado en crear exploits imposibles de rastrear y en mantener alta dispon
 - Git  
 - Python  
 - Java  
+

@@ -52,16 +52,10 @@ header h1 {
 }
 .contacto,
 .perfil {
-  flex: 1; /* para que ocupen el mismo espacio ambas secciones */
+  flex: 1; /* para que mi pagina web ocupe el mismo espacio en las dos secciones como se ve en la imagen */
 }
 .escuela_año,
 .lugartrabajo_año {
-  display: flex;
-  justify-content: space-between; /*para que el año quede en la otra punta de le escuela o lugar de trabajo */
-  align-items: baseline; /* para que el año quede alineado con el texto de la escuela o lugar de trabajo */
-}
-
-.random {
   display: flex;
   justify-content: space-between; /*para que el año quede en la otra punta de le escuela o lugar de trabajo */
   align-items: baseline; /* para que el año quede alineado con el texto de la escuela o lugar de trabajo */
