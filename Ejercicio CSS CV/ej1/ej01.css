@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./assets/fonts/Raleway-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("./assets/fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+body {
+  font-family: "Raleway";
+  margin: 40px;
+}
+
+header {
+  position: relative; /* para que el avatar se posicione de forma absoluta respecto al header */
+  padding-left: 70px; /* para que el texto no se superponga con el avatar */
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+header p {
+  color: rgb(75, 74, 74);
+  font-weight: normal;
+}
+header p,
+header h1 {
+  margin: 0;
+}
+#voldemort {
+  position: absolute; /* se posiciona a la izquierda y arriba de la tarjeta de forma absoluta */
+  top: 0px; /* se posiciona a la izquierda y arriba de la tarjeta de forma absoluta */
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* para que el icono sea redondo */
+  object-fit: cover; /* para que la imagen se ajuste al tamaño del avatar y no se deforme */
+  object-position: top; /* para que la imagen se ajuste al tamaño del avatar y no se deforme */ /* para que la imagen se ajuste al tamaño del avatar y no se deforme */
+}
+.contactoyperfil {
+  display: flex; /* para que las secciones de contacto y perfil estén en la misma línea */
+  gap: 40px; /* para que haya un espacio (bastante pequeño) entre las secciones de contacto y perfil */
+}
+.contacto,
+.perfil {
+  flex: 1; /* para que ocupen el mismo espacio ambas secciones */
+}
+.escuela_año,
+.lugartrabajo_año {
+  display: flex;
+  justify-content: space-between; /*para que el año quede en la otra punta de le escuela o lugar de trabajo */
+  align-items: baseline; /* para que el año quede alineado con el texto de la escuela o lugar de trabajo */
+}
+
+.random {
+  display: flex;
+  justify-content: space-between; /*para que el año quede en la otra punta de le escuela o lugar de trabajo */
+  align-items: baseline; /* para que el año quede alineado con el texto de la escuela o lugar de trabajo */
+}
+
+.año {
+  margin: 0;
+}
+
+.footer img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+}
+hr {
+  /* para que la línea horizontal, primero exista y tenga un color gris oscuro */
+  border-top: 1px solid #353434;
+  margin: 30px 0; /* para que haya un espacio de 30px arriba y abajo de la línea horizontal */
+}
