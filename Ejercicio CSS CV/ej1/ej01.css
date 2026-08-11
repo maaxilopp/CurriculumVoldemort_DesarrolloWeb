@@ -52,7 +52,7 @@ header h1 {
 }
 .contacto,
 .perfil {
-  flex: 1; /* para que mi pagina web ocupe el mismo espacio en las dos secciones como se ve en la imagen */
+  flex: 1; /* para que mi pagina web ocupe el mismo espacio en las dos secciones como se ve en la imagen  */
 }
 .escuela_año,
 .lugartrabajo_año {
@@ -60,7 +60,19 @@ header h1 {
   justify-content: space-between; /*para que el año quede en la otra punta de le escuela o lugar de trabajo */
   align-items: baseline; /* para que el año quede alineado con el texto de la escuela o lugar de trabajo */
 }
-
+.contacto h2 {
+  padding-left: 20px;
+}
+.contacto li {
+  margin-bottom: 20px; /* para que haya un espacio entre los elementos de la lista de contacto */
+}
+ul li::marker {
+  color: rgb(99, 97, 97);
+}
+.perfil p {
+  max-width: 45ch;
+  width: 100%;
+}
 .año {
   margin: 0;
 }
